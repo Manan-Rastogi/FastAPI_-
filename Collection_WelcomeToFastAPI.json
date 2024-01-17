@@ -1,0 +1,54 @@
+{
+    "info": {
+        "_postman_id": "dab2b911-cdf0-4fab-a375-5e90705d6e7d",
+        "name": "WelcomeToFastAPI",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+        "description": ""
+    },
+    "item": [
+        {
+            "name": "Welcome",
+            "request": {
+                "method": "GET",
+                "url": {
+                    "raw": "http://127.0.0.1:8000",
+                    "protocol": "http",
+                    "host": [
+                        "127",
+                        "0",
+                        "0",
+                        "1"
+                    ],
+                    "port": "8000"
+                }
+            }
+        },
+        {
+            "name": "Welcome_Params",
+            "request": {
+                "method": "GET",
+                "url": {
+                    "raw": "http://127.0.0.1:8000/Welcome?name=Manan Rastogi",
+                    "query": [
+                        {
+                            "key": "name",
+                            "value": "Manan Rastogi"
+                        }
+                    ],
+                    "variable": [],
+                    "path": [
+                        "Welcome"
+                    ],
+                    "protocol": "http",
+                    "host": [
+                        "127",
+                        "0",
+                        "0",
+                        "1"
+                    ],
+                    "port": "8000"
+                }
+            }
+        }
+    ]
+}
